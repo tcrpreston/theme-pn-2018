@@ -32,7 +32,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 	<div class="wrapper-fluid wrapper-navbar" id="wrapper-navbar">
 	
 		<header>
-			<img class="logo" src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo-white.png" alt="Pumpkin Nights Logo" />
+			<a href="/"><img class="logo" src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo-white.png" alt="Pumpkin Nights Logo" /></a>
 		</header>
 
 	</div><!-- .wrapper-navbar end -->
