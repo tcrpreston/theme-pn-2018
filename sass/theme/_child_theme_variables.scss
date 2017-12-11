@@ -5,9 +5,20 @@
 // Thats the ugly Bootstrap blue used for all the links, primary buttons etc.
 // Just add your color code here, compile the theme.scss file to change this color everywhere
 
+$screen-sm: 420px;
+$screen-md: 680px;
+$screen-lg: 1024px;
+
 
 $brand-primary:         #fece00; //#ff6d5a
 $background-color:      #472C4C;
-$font-primary:          #FFFFFF;
-$font-h1:               #FF9900;
-$font-a:                #FF9900;
+$font-color-primary:          #FFFFFF;
+$font-color-h1:               #FF9900;
+$font-color-h2:               #FFFFFF;
+$font-color-a:                #FF9900;
+
+
+$font-size-h2: 28px;
+
+
+$font-size-mobile-h2: 18px;

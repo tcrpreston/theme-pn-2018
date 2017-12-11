@@ -9556,8 +9556,24 @@ body {
   body #page {
     text-align: center; }
     body #page header .logo {
-      max-width: 1280px;
+      max-width: 960px;
       width: 80%; }
+    body #page h2 {
+      font-weight: normal;
+      color: #FFFFFF;
+      font-size: 18px; }
+      @media (min-width: 420px) {
+        body #page h2 {
+          font-size: 28px; } }
+      body #page h2.home-page-subcaption {
+        margin-top: -10px;
+        margin-bottom: 20px; }
+        @media (min-width: 420px) {
+          body #page h2.home-page-subcaption {
+            margin-top: -20px;
+            margin-bottom: 40px; } }
+    body #page .wrapper {
+      padding: 0; }
   body #wrapper-footer-full {
     background-color: transparent;
     margin-top: 30px; }
