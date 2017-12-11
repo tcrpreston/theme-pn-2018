@@ -1,0 +1,24 @@
+body {
+   background-color: $background-color;
+   color: $font-primary;
+   
+   a {
+      color: $font-a;
+   }
+   
+   #page {
+      text-align: center;
+      
+      header {
+         .logo {
+            max-width: 1280px; 
+            width: 80%;
+         }
+      }
+   }
+   
+   #wrapper-footer-full {
+      background-color: transparent;
+      margin-top: 30px;
+   }
+}

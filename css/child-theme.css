@@ -9547,3 +9547,17 @@ a.skip-link {
 
 .gallery-caption {
   display: block; }
+
+body {
+  background-color: #472C4C;
+  color: #FFFFFF; }
+  body a {
+    color: #FF9900; }
+  body #page {
+    text-align: center; }
+    body #page header .logo {
+      max-width: 1280px;
+      width: 80%; }
+  body #wrapper-footer-full {
+    background-color: transparent;
+    margin-top: 30px; }
